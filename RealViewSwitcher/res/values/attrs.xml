@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RealViewSwitcher">
+        <attr format="integer" name="interpolator">
+            <enum name="accelerate_decelerate_interpolator" value="1" />
+            <enum name="accelerate_interpolator" value="2" />
+            <enum name="anticipate_interpolator" value="3" />
+            <enum name="anticipate_overshoot_interpolator" value="4" />
+            <enum name="bounce_interpolator" value="5" />
+            <enum name="decelerate_interpolator" value="6" />
+            <enum name="linear_interpolator" value="7" />
+            <enum name="overshoot_interpolator" value="8" />
+        </attr>
+    </declare-styleable>
+
+</resources>
